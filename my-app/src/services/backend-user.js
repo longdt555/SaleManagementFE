@@ -1,5 +1,5 @@
 import http from './http-common';
 
-const GetAll = () => {
+const getAll = () => {
     return http.get('/products');
 }
